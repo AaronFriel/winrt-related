@@ -1,5 +1,5 @@
 ---
-title: What's different in Windows 10
+title: What's different in Windows 10
 description: This topic lists changes to the package manifest schema reference for each version of Windows 10, including namespaces and features that have been added or changed.
 ms.assetid: 2afadf58-6dcc-4959-b97b-47d2075af692
 author: laurenhughes
@@ -14,7 +14,7 @@ ms.topic: reference
 ms.date: 08/10/2017
 ---
 
-# What's different in Windows 10
+# What's different in Windows 10
 
 This topic lists changes to the package manifest schema reference for each version of Windows 10, including namespaces and features that have been added or changed. See the [Element Hierarchy](root-elements.md) for reference info on all elements, attributes, and types in the schema.
 
@@ -24,38 +24,38 @@ The following sections list the namespaces and XML prefixes added to the package
 ### Added namespaces and XML prefixes 
 | Prefix   | Namespace | 
 |----------|-----------|
-| uap4     | http://schemas.microsoft.com/appx/manifest/uap/windows10/4 |
-| com      | http://schemas.microsoft.com/appx/manifest/com/windows10 |
-| desktop2 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/2 |
-| rescap3  | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3 |
+| uap4     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
+| com      | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+| desktop2 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |
+| rescap3  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3` |
 
 
 ## Windows 10, Anniversary Update - Build 14393, Version 1607
 ### Added namespaces and XML prefixes 
 | Prefix  | Namespace | 
 |---------|-----------|
-| uap3    | http://schemas.microsoft.com/appx/manifest/uap/windows10/3 |
-| desktop | http://schemas.microsoft.com/appx/manifest/desktop/windows10 |
-| rescap2 | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/2 |
+| uap3    | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| desktop | `http://schemas.microsoft.com/appx/manifest/desktop/windows10` |
+| rescap2 | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/2` |
 
 ## Windows 10, November Update - Build 10586, Version 1511
 ### Added namespaces and XML prefixes 
 | Prefix   | Namespace | 
 |----------|-----------|
-| uap2     | http://schemas.microsoft.com/appx/manifest/uap/windows10/2 |
-| f2       | http://schemas.microsoft.com/appx/manifest/foundation/windows10/2 |
+| uap2     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/2` |
+| f2       | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/2` |
 
 
 ## Windows 10 - Build 10240, Version 1507
 ### Added namespaces and XML prefixes 
 | Prefix        | Namespace | 
 |---------------|-----------|
-| uap           | http://schemas.microsoft.com/appx/manifest/uap/windows10 |
-| f             | http://schemas.microsoft.com/appx/manifest/foundation/windows10 |
-| holo          | http://schemas.microsoft.com/appx/manifest/holographic/windows10 |
-| mobile        | http://schemas.microsoft.com/appx/manifest/mobile/windows10 |
-| rescap        | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities |
-| serverpreview | http://schemas.microsoft.com/appx/manifest/serverpreview/windows10 |  
+| uap           | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| f             | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| holo          | `http://schemas.microsoft.com/appx/manifest/holographic/windows10` |
+| mobile        | `http://schemas.microsoft.com/appx/manifest/mobile/windows10` |
+| rescap        | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities` |
+| serverpreview | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10 |`  
 
 
 ## Elements and attributes that have been added
